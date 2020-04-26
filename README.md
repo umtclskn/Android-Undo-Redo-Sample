@@ -63,7 +63,7 @@ Basically Memento Pattern has Originator, Memento and Caretaker classes.
      stack of Undo;
     }
     ```
-    We have two stack, they manages state transion between previous state or prior state.
+    We have two stack, they manages state transition between previous state or prior state.
 
 
 * UndoRedo class manages Caretaker class and triger the callback listener methods.
@@ -124,12 +124,13 @@ In CareTaker class:
 ### 2. Potential shortcomings
 
 
-One potential shortcoming would be implementation is not design in order to Dependecy Injection.
-Implementation is too loosely coupled :)
-
+One potential shortcoming is the implementation is not designed based on Dependency Injection criteria.
+Implementation is too tightly coupled :)
 
 
 ### 3. Possible improvements
 
 Change the UndoRedo class implementation as Injectable Service.
 Originator classes' functions could change as Java Generic Type or maybe use reflections.
+
+It is a sample code base, feel free to change the code and give your suggestions!
