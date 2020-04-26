@@ -1,0 +1,2 @@
+rootProject.name='Android UndoRedo'
+include ':app'
